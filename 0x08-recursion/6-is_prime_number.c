@@ -4,11 +4,6 @@
  * returns 1 if the input integer is a prime number, otherwise return 0
 */
 
-
-int actual_prime(int n, int x){
-
-}
-
 int is_prime_number(int n)
 {
 	if (n <= 1)
