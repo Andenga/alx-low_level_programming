@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 /**
- * 
+ * print the minimum number of coins to make change for an amount of money.
  */
-int main(int argc, char *argv[])
+int main(int X, char *argv[])
 {
 	int cents, coins = 0;
 
-	if (argc != 2)
+	if (X != 2)
 	{
 		printf("Error\n");
 		return (1);
