@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 /**
-* main - Print all single digit numbers using only putchar
-*
-* Return: Always 0 (Success)
+ * main - print all single digit numbers of base 10.
+ * 
+ * return: always 0(success).
 */
 int main(void)
 {
-	int digit;
+    int numbers;
 
-	for (digit = 0; digit < 10; digit++)
-	putchar(digit + '0');
+    for(numbers = 0; numbers < 10; numbers++)
+	putchar(numbers + '0');
 
-	putchar('\n');
+    putchar('\n');
 
-	return (0);
+    return(0);
 }
