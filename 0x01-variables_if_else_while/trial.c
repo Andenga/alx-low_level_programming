@@ -1,17 +1,3 @@
-#include <stdio.h>
-
-/**
- * main - print all possible combinations of single-digit numbers.
- * Description: in ascending order.
- * use putchar
- * return: 
-*/
-
-
-
-
-
-
 
 
 
