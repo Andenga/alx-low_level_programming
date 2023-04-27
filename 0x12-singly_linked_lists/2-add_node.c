@@ -3,48 +3,11 @@
 
 /**
  *add_node_end - adds a new node at the beginning of a list_t list.
- *@head: A pointer to the head of the structure list_t list.
- *@str: string to be added.
  *
- *Return: If function fails return NULL.
- *Return: or Address of the new element.
+ *Return.
  */
 
 list_t *add_node_end(list_t **head, const char *str)
 {
-	char *duplicate;
-	int length;
-	list_t *newptr, *lastptr;
 
-	newptr = malloc(sizeof(list_t));
-	if (newptr == NULL)
-		return (NULL);
-
-	duplicate = strdup(str);
-	if (duplicate == NULL)
-	{
-		free(newptr);
-		return (NULL);
-	}
-
-	length = 0;
-	while (str[length])
-
-		length++;
-
-	newptr->str = duplicate;
-	newptr->len = length;
-	newptr->next = NULL;
-	if (*head == NULL)
-		*head = newptr;
-
-	else
-	{
-		lastptr = *head;
-		while (lastptr->next != NULL)
-			lastptr = lastptr->next;
-		lastptr->next = newptr;
-	}
-
-	return (*head);
 }
