@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * struct listint_s - singly linked list
+ * delete_nodeint_at_index - function of singly linked list
  * @head: points to head
  * @index: Index of pointer
  *
