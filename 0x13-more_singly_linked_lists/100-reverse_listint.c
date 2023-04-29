@@ -6,7 +6,7 @@
  * @next: points to the next 
  * @tail: points to the tail.
  *
- * Description: singly linked list node structure
+ * return: head(Success)
  *
  */
 
