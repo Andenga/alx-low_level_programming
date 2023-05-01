@@ -5,14 +5,11 @@
  * @a: First integer.
  * @b: Second integer.
  * 
- * return: Always zero(Success).
+ * return: Multiplication.
 */
 
 int mul(int a, int b)
 {
-    int product;
-
-    product = a * b;
     
-    return(product);
+    return(a * b);
 }
