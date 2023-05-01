@@ -1,29 +1,30 @@
 #include "main.h"
 
 /**
- * int _isdigit(int c); checks for a digit(0 through 9)
- * @c: Input.
+ * int mul(int a, int b): Multiplies two integers
+ * @a: First integer.
+ * @b: Second integer.
  * 
- * return: 1 if c is a digit, 0 otherwise.
+ * return: Always zero(Success).
 */
 
-int _isdigit(int c)
+int mul(int a, int b)
 {
-    if ((c <= 0) && (c <= 9))
-        return(1);
-    return(0);
+    int product;
+
+    product = a * b;
+    
+    return(product);
 }
+
+
 
 
 
 
 /**
  * 
- * Write a function that checks for a digit (0 through 9).
+Write a function that multiplies two integers.
 
-Prototype: int _isdigit(int c);
-Returns 1 if c is a digit
-Returns 0 otherwise
-FYI: The standard library provides a similar function: isdigit. Run man isdigit to learn more.
- * 
+Prototype: int mul(int a, int b);
 */
