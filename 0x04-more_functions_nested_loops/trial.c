@@ -22,9 +22,7 @@ int main(void)
         } else
         {
             printf(i + "\n");
-        }
-        
-        
+        }   
     }
     
 }
