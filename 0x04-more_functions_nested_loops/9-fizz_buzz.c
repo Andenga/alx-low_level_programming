@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - prints the numbers from 1 to 100
@@ -9,8 +8,6 @@
  * 3 & 5 multiples print FizzBuzz instead of the number
  * Return: Always 0 (Success)
  */
-
-#include <stdio.h>
 
 int main(void)
 {
