@@ -1,22 +1,19 @@
 #include "main.h"
 
 /**
- * int mul(int a, int b): Multiplies two integers
- * @a: First integer.
- * @b: Second integer.
+ * print_numbers(void): Prints numbers from 0 to 9.
  * 
- * return: Always zero(Success).
+ * 
+ * return: always 0(Success).
 */
 
-int mul(int a, int b)
+print_numbers(void)
 {
-    int product;
+    for(int x = 0; x <= 9; x++)
+    _putchar(x);
 
-    product = a * b;
-    
-    return(product);
+    _putchar('/n');
 }
-
 
 
 
@@ -24,7 +21,11 @@ int mul(int a, int b)
 
 /**
  * 
-Write a function that multiplies two integers.
+ * 
+ * Write a function that prints the numbers, from 0 to 9, followed by a new line.
 
-Prototype: int mul(int a, int b);
+Prototype: void print_numbers(void);
+You can only use _putchar twice in your code
+ * 
+ * 
 */
